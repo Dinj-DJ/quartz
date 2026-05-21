@@ -91,4 +91,4 @@ const config: QuartzConfig = {
     ],
   },
 }
-export default configF
+export default config
