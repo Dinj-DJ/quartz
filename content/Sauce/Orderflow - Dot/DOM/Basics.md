@@ -3,7 +3,7 @@
 - Volume - Total amount of contracts traded at each price
  ![[Volume.png|208]]
 - @Bid - Aggressive sellers 
-- @Ask - Aggressive buyers![[@Bid, @Ask.png|206]]
+- @Ask - Aggressive buyers
            OR
 - Bid - Passive buyers and Aggressive sellers
 - Ask - Passive sellers and Aggressive buyers

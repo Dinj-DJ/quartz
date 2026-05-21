@@ -1,5 +1,5 @@
-![[Squeeze.png|317]]
-- Rex boxes are abortion
+![[Squeeze.png]]
+- Red boxes are abortion
 - what we need to focus on is aggressive behavior following absorption 
 - Because pretty much every candle has absorption, it is necessary to filter out proper abs with aggression 
 - Because we see buyers break past the absorption level, it shows us not only that they are getting aggressive, but they are actually breaking absorption levels 

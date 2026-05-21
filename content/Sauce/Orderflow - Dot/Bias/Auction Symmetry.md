@@ -1,11 +1,12 @@
+[Bias]
 
 - If we are at ATH really only Play of micro structure and intraday levels. 
 
-- If you have a 2 day balance and are using Daily TPO, you can merge them to have a better balance. ![[TPO Merge.png|254]]
+- If you have a 2 day balance and are using Daily TPO, you can merge them to have a better balance. 
 
 - if you have a day where volume is compressed, and the entire day is a range - use 68% for TPO.
 
-- If there is a double distribution day, use 40%
+- If there is a double distribution day or expand, use 40%
 
 - every time we initiate a trend its most of the time due to a failed auction. 
 
