@@ -74,7 +74,7 @@ body::before {
 
 header, .header {
   position: fixed !important;
-  top: 24px !important;
+  top: 26px !important;
   right: 34px !important;
   left: auto !important;
   background: transparent !important;
@@ -83,23 +83,23 @@ header, .header {
   display: flex !important;
   justify-content: flex-end !important;
   align-items: center !important;
-  gap: 18px !important;
+  gap: 16px !important;
   z-index: 1000 !important;
 }
 
 .search-bar, .search input, #search-bar, input[type="text"] {
   background: rgba(10,10,18,0.72) !important;
-  border: 1px solid rgba(139,124,255,0.15) !important;
+  border: 1px solid rgba(139,124,255,0.14) !important;
   border-radius: 999px !important;
   color: #f4f4f4 !important;
-  height: 46px !important;
-  width: 260px !important;
+  height: 48px !important;
+  width: 270px !important;
   padding: 0 18px !important;
   font-family: Inter, sans-serif !important;
   font-size: 14px !important;
   transition: all 0.3s ease !important;
   backdrop-filter: blur(20px) !important;
-  box-shadow: inset 0 0 20px rgba(255,255,255,0.02), 0 0 30px rgba(139,124,255,0.05) !important;
+  box-shadow: 0 0 35px rgba(139,124,255,0.06), inset 0 0 18px rgba(255,255,255,0.02) !important;
 }
 
 .search-bar:focus, .search input:focus, input[type="text"]:focus {
@@ -193,40 +193,47 @@ footer, .footer {
 }
 
 .darkmode {
-  position: absolute !important;
-  left: 28px !important;
-  bottom: 24px !important;
-  margin-top: 0 !important;
-  padding: 0 18px !important;
-  height: 42px !important;
+  position: fixed !important;
+  left: 32px !important;
+  bottom: 28px !important;
+  z-index: 1000 !important;
+  height: 44px !important;
+  padding: 0 20px !important;
+  border-radius: 14px !important;
+  background: rgba(15,15,25,0.75) !important;
+  border: 1px solid rgba(139,124,255,0.18) !important;
+  backdrop-filter: blur(18px) !important;
+  box-shadow: 0 0 30px rgba(139,124,255,0.08), inset 0 0 20px rgba(255,255,255,0.02) !important;
   display: flex !important;
   align-items: center !important;
   gap: 10px !important;
-  background: rgba(255,255,255,0.03) !important;
-  border: 1px solid rgba(139,124,255,0.12) !important;
-  border-radius: 10px !important;
-  backdrop-filter: blur(16px) !important;
   font-size: 14px !important;
-  color: rgba(255,255,255,0.75) !important;
+  font-weight: 500 !important;
+  color: rgba(255,255,255,0.82) !important;
   cursor: pointer !important;
   transition: all 0.3s ease !important;
+  margin-top: 0 !important;
 }
 
 .darkmode:hover {
   transform: translateY(-1px) !important;
-  box-shadow: 0 0 20px rgba(139,124,255,0.12) !important;
+  box-shadow: 0 0 25px rgba(139,124,255,0.14) !important;
 }
 
 .page, .page-wrapper {
-  margin-left: 260px !important;
-  padding-top: 0 !important;
+  margin-left: 320px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  width: calc(100% - 320px) !important;
+  box-sizing: border-box !important;
   background: transparent !important;
 }
 
 article {
-  max-width: 760px !important;
+  max-width: 980px !important;
+  width: 100% !important;
   margin: 0 auto !important;
-  padding: 6rem 2rem 3rem !important;
+  padding: 6rem 0 3rem !important;
   line-height: 1.9 !important;
   font-size: 1rem !important;
   color: #f4f4f4 !important;
@@ -278,7 +285,8 @@ article img {
   display: block !important;
   margin: 2rem auto !important;
   max-width: 100% !important;
-  border-radius: 16px !important;
+  height: auto !important;
+  border-radius: 18px !important;
   border: 1px solid rgba(139,124,255,0.15) !important;
   box-shadow: 0 0 30px rgba(139,124,255,0.08) !important;
 }
