@@ -14,6 +14,7 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   padding: 2rem 0;
   position: relative;
   transform: translateY(-40px);
+  background: transparent;
 }
 
 .hw-row {
@@ -24,6 +25,32 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   position: relative;
 }
 
+.hw-waveform {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  width: 760px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hw-waveform span {
+  display: block;
+  width: 3px;
+  border-radius: 3px;
+  background: rgba(139,124,255,0.45);
+  filter: blur(1px);
+  mix-blend-mode: screen;
+}
+
+.hw-waveform span:nth-child(1){height:8px}.hw-waveform span:nth-child(2){height:14px}.hw-waveform span:nth-child(3){height:22px}.hw-waveform span:nth-child(4){height:36px}.hw-waveform span:nth-child(5){height:52px}.hw-waveform span:nth-child(6){height:44px}.hw-waveform span:nth-child(7){height:68px}.hw-waveform span:nth-child(8){height:55px}.hw-waveform span:nth-child(9){height:80px}.hw-waveform span:nth-child(10){height:62px}.hw-waveform span:nth-child(11){height:90px}.hw-waveform span:nth-child(12){height:72px}.hw-waveform span:nth-child(13){height:100px}.hw-waveform span:nth-child(14){height:82px}.hw-waveform span:nth-child(15){height:110px}.hw-waveform span:nth-child(16){height:90px}.hw-waveform span:nth-child(17){height:120px}.hw-waveform span:nth-child(18){height:95px}.hw-waveform span:nth-child(19){height:110px}.hw-waveform span:nth-child(20){height:82px}.hw-waveform span:nth-child(21){height:100px}.hw-waveform span:nth-child(22){height:72px}.hw-waveform span:nth-child(23){height:90px}.hw-waveform span:nth-child(24){height:62px}.hw-waveform span:nth-child(25){height:80px}.hw-waveform span:nth-child(26){height:55px}.hw-waveform span:nth-child(27){height:68px}.hw-waveform span:nth-child(28){height:44px}.hw-waveform span:nth-child(29){height:52px}.hw-waveform span:nth-child(30){height:36px}.hw-waveform span:nth-child(31){height:22px}.hw-waveform span:nth-child(32){height:14px}.hw-waveform span:nth-child(33){height:8px}
+
 .hw-logo {
   width: 220px;
   height: 220px;
@@ -33,7 +60,7 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 40px rgba(139,124,255,0.25), 0 0 80px rgba(139,124,255,0.1), inset 0 0 40px rgba(139,124,255,0.05);
-  background: rgba(13,16,32,0.8);
+  background: rgba(13,16,32,0.5);
   backdrop-filter: blur(10px);
   flex-shrink: 0;
   position: relative;
@@ -53,6 +80,8 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   align-items: center;
   gap: 4px;
   height: 100px;
+  position: relative;
+  z-index: 2;
 }
 
 .hw-waves span {
@@ -76,15 +105,12 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
 }
 
 .hw-title .w { color: #f4f4f4; }
-
-.hw-title .p {
-  color: #8b7cff;
-}
+.hw-title .p { color: #8b7cff; }
 
 .hw-byline {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 10px;
   color: #9b9b9b;
   font-size: 0.7rem;
   letter-spacing: 0.4em;
@@ -96,8 +122,9 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   display: block;
   width: 40px;
   height: 1px;
-  background: #5a4ea3;
+  background: rgba(139,124,255,0.35);
   font-style: normal;
+  box-shadow: 0 0 6px rgba(139,124,255,0.2);
 }
 
 .hw-desc {
@@ -134,6 +161,7 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
 </style>
 
 <div class="homepage-hero">
+  <div class="hw-waveform"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
   <div class="hw-row">
     <div class="hw-waves l"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
     <div class="hw-logo"><span class="hw-dj">DJ</span></div>
