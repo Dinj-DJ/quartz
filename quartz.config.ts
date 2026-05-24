@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: { provider: "plausible" },
     locale: "en-US",
-    baseUrl: "dinj-dj.github.io/quartz",
+   baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

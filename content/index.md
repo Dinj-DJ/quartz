@@ -13,6 +13,7 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   min-height: 85vh;
   padding: 2rem 0;
   position: relative;
+  transform: translateY(-40px);
 }
 
 .hw-row {
@@ -43,10 +44,7 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   font-family: Inter, sans-serif;
   font-size: 4.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #c6bcff, #8b7cff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #8b7cff;
   letter-spacing: 0.05em;
 }
 
@@ -69,10 +67,10 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
 
 .hw-title {
   font-family: Inter, sans-serif;
-  font-size: 4.5rem;
+  font-size: clamp(48px, 5vw, 72px);
   font-weight: 800;
   letter-spacing: 0.25em;
-  margin: 0 0 0.5rem;
+  margin: 0 0 18px;
   line-height: 1;
   text-align: center;
 }
@@ -80,10 +78,7 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
 .hw-title .w { color: #f4f4f4; }
 
 .hw-title .p {
-  background: linear-gradient(to right, #c6bcff, #8b7cff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #8b7cff;
 }
 
 .hw-byline {
@@ -108,16 +103,17 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
 .hw-desc {
   color: #9b9b9b;
   font-size: 0.95rem;
-  margin: 0 0 2.5rem;
+  margin: 0 0 38px;
   text-align: center;
   font-weight: 300;
   letter-spacing: 0.05em;
+  max-width: 600px;
 }
 
 .hw-btn {
-  padding: 1rem 3rem;
+  padding: 18px 42px;
   border: 1px solid rgba(139,124,255,0.4);
-  border-radius: 50px;
+  border-radius: 999px;
   color: #f4f4f4;
   font-size: 0.72rem;
   letter-spacing: 0.25em;
@@ -131,7 +127,7 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
 
 .hw-btn:hover {
   background: linear-gradient(135deg, rgba(139,124,255,0.3), rgba(111,92,255,0.2));
-  box-shadow: 0 0 30px rgba(139,124,255,0.25);
+  box-shadow: 0 10px 30px rgba(139,124,255,0.25);
   transform: translateY(-2px);
   text-decoration: none;
 }
