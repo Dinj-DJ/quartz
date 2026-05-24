@@ -1,21 +1,15 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-/**
- * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
- */
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Straight Sauce - DJ",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: "plausible" },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "dinj-dj.github.io/quartz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -28,26 +22,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#1e1e2e",
-          lightgray: "#313244",
-          gray: "#6c7086",
-          darkgray: "#cdd6f4",
-          dark: "#cdd6f4",
-          secondary: "#89b4fa",
-          tertiary: "#cba6f7",
-          highlight: "rgba(137, 180, 250, 0.1)",
-          textHighlight: "#f9e2af",
+          light: "#050505",
+          lightgray: "#131225",
+          gray: "#5a4ea3",
+          darkgray: "#f4f4f4",
+          dark: "#f4f4f4",
+          secondary: "#8b7cff",
+          tertiary: "#6f5cff",
+          highlight: "rgba(139,124,255,0.08)",
+          textHighlight: "#8b7cff",
         },
         darkMode: {
-          light: "#1e1e2e",
-          lightgray: "#313244",
-          gray: "#6c7086",
-          darkgray: "#cdd6f4",
-          dark: "#cdd6f4",
-          secondary: "#89b4fa",
-          tertiary: "#cba6f7",
-          highlight: "rgba(137, 180, 250, 0.1)",
-          textHighlight: "#f9e2af",
+          light: "#050505",
+          lightgray: "#131225",
+          gray: "#5a4ea3",
+          darkgray: "#f4f4f4",
+          dark: "#f4f4f4",
+          secondary: "#8b7cff",
+          tertiary: "#6f5cff",
+          highlight: "rgba(139,124,255,0.08)",
+          textHighlight: "#8b7cff",
         },
       },
     },
@@ -59,10 +53,7 @@ const config: QuartzConfig = {
         priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
+        theme: { light: "github-dark", dark: "github-dark" },
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
@@ -79,10 +70,7 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: true,
-      }),
+      Plugin.ContentIndex({ enableSiteMap: true, enableRSS: true }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
