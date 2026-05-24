@@ -1,12 +1,15 @@
-*, body, .page, .page-wrapper, main {
-  background: #050505 !important;
-  font-family: Inter, sans-serif !important;
+*, body, .page, .page-wrapper, main, article,
+.center, .page-content, .markdown-content,
+.content, .popover-hint, section, div {
+  background: transparent !important;
 }
 
 body {
+  background: #050505 !important;
   min-height: 100vh !important;
   overflow-x: hidden !important;
   position: relative !important;
+  font-family: Inter, sans-serif !important;
 }
 
 body::before {
@@ -54,12 +57,15 @@ body::before {
 
 .page-title a {
   color: transparent !important;
-  font-size: 28px !important;
+  font-size: 22px !important;
   font-weight: 650 !important;
   text-decoration: none !important;
   letter-spacing: 0.5px !important;
   display: block !important;
   margin-bottom: 0 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
   background: linear-gradient(135deg, #f4f4f4, #c6bcff) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -74,8 +80,8 @@ body::before {
 
 header, .header {
   position: fixed !important;
-  top: 26px !important;
-  right: 34px !important;
+  top: 22px !important;
+  right: 28px !important;
   left: auto !important;
   background: transparent !important;
   border-bottom: none !important;
@@ -84,7 +90,7 @@ header, .header {
   justify-content: flex-end !important;
   align-items: center !important;
   gap: 16px !important;
-  z-index: 1000 !important;
+  z-index: 2000 !important;
 }
 
 .search-bar, .search input, #search-bar, input[type="text"] {
@@ -113,6 +119,11 @@ article > .content-meta,
 .page-header,
 h1.article-title,
 .meta {
+  display: none !important;
+}
+
+.graph, .graph-outer, .graph-container,
+[class*="graph"], [id*="graph"] {
   display: none !important;
 }
 
@@ -170,9 +181,7 @@ h1.article-title,
   box-shadow: 0 0 12px rgba(139,124,255,0.8);
 }
 
-.tree-item-self {
-  text-decoration: none !important;
-}
+.tree-item-self { text-decoration: none !important; }
 
 .explorer-ul ul,
 .explorer-ul li > ul {
@@ -184,13 +193,9 @@ h1.article-title,
   border-left: none !important;
 }
 
-del, s, strike {
-  text-decoration: none !important;
-}
+del, s, strike { text-decoration: none !important; }
 
-footer, .footer {
-  display: none !important;
-}
+footer, .footer { display: none !important; }
 
 .darkmode {
   position: fixed !important;
@@ -226,7 +231,6 @@ footer, .footer {
   padding-right: 40px !important;
   width: calc(100% - 320px) !important;
   box-sizing: border-box !important;
-  background: transparent !important;
 }
 
 article {
@@ -239,7 +243,6 @@ article {
   color: #f4f4f4 !important;
   position: relative !important;
   z-index: 1 !important;
-  background: transparent !important;
 }
 
 article h1, article h2 {
@@ -277,9 +280,7 @@ article ul, article ol {
   font-weight: 300 !important;
 }
 
-article li {
-  margin-bottom: 0.4rem !important;
-}
+article li { margin-bottom: 0.4rem !important; }
 
 article img {
   display: block !important;
@@ -296,9 +297,7 @@ article strong {
   font-weight: 600 !important;
 }
 
-article em {
-  color: #8b7cff !important;
-}
+article em { color: #8b7cff !important; }
 
 article a {
   color: #8b7cff !important;
@@ -310,16 +309,4 @@ article a {
 article a:hover {
   color: #c6bcff !important;
   border-bottom-color: #8b7cff !important;
-}
-
-.graph-outer, .graph {
-  border: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 28px !important;
-  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015)) !important;
-  backdrop-filter: blur(20px) !important;
-  box-shadow: 0 0 40px rgba(0,0,0,0.4), 0 0 80px rgba(139,124,255,0.06) !important;
-  overflow: hidden !important;
-  padding: 1.5rem !important;
-  margin-top: -40px !important;
-  max-width: 1400px !important;
 }
