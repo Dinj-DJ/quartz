@@ -23,3 +23,24 @@ body, .page {
   border-radius: 12px;
   background: #0d0d1f;
 }
+
+article > h1:first-child,
+article > .content-meta {
+  display: none !important;
+}
+
+.explorer-ul .folder-outer > .folder-li > a.active,
+.explorer-ul li > a.active {
+  color: #89b4fa !important;
+}
+
+.explorer-ul li > a.active::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #89b4fa;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
