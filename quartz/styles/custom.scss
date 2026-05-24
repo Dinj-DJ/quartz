@@ -1,21 +1,25 @@
-.hero-banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem 0 2rem;
-  border-bottom: 1px solid var(--lightgray);
-  margin-bottom: 2rem;
+body, .page {
+  background: #0a0a18 !important;
 }
 
-.hero-logo {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1rem;
+.left.sidebar {
+  background: #0d0d1f;
+  border-right: 1px solid #1a1a3a;
 }
 
-.hero-sub {
-  color: var(--gray);
-  font-size: 1rem;
-  margin-top: 0.25rem;
-  letter-spacing: 0.1em;
+.sidebar-title, .page-title {
+  color: #cdd6f4 !important;
+}
+
+.explorer-title {
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  color: #6c7086 !important;
+  text-transform: uppercase;
+}
+
+.graph {
+  border: 1px solid #1e1e3a;
+  border-radius: 12px;
+  background: #0d0d1f;
 }
