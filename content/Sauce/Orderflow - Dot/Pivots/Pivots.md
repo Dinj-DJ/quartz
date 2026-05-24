@@ -97,3 +97,25 @@ The opposite is also true
 - You can confirm a breakout by seeing how much volume was traded. 
 
 - As you can see in the example, a breakout is confirmed by seeing that 500 cons were traded in that balance inside/below the pivot, and then in the breakout candles there was 1000 cons traded. This confirms the breakout by showing more volume was actually traded - andthen the fact that we created balance above shows they are accepting price in previous unfair value which confirms the breakout. 
+
+
+
+### Inside Pivots 
+
+What if the Pivot is in a HVN.
+
+- inside pivots (pivots inside value) are going to help price rotate from one extreme to another
+
+Case study ( First screen shot - Pivot, Second Ss - HVN , Third SS how it can play out)
+
+- if we're in a bearish rotation
+
+the inside pivots you can use as context or if u missed ur entry u can take a stab short there
+
+![[Pivot.png|532]]
+![[Inside Pivot.png|427]]
+![[Inside Pivot Play out.png|445]]
+### Related
+
+[[Location]]
+[[Pivots]] 

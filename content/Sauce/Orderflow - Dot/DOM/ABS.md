@@ -36,3 +36,11 @@ Don't complicate this
 
 ### Summary
 - Aggressive orders trade into passive limits, and then they constantly keep slapping on more orders (refreshing)
+
+
+### Related
+
+[[[Pivots]]]
+[[ABS]]
+[[Orderflow - Dot/Thesis/-|-]]
+[[Basics]]

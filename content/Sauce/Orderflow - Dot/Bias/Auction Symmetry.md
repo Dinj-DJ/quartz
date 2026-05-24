@@ -32,3 +32,13 @@
 4. then come back into level and have a failed auction (that is your entry)
 
 ![[Entries.png]]Your entries should be either at the low volume area, or at the re bid. You wouldn't take it after we have completed the rotation back up, and then come back to the same area
+
+
+
+### Related 
+
+[[AMT - Auction market Theory]]
+[[3 Values - extremes]]
+[[AMT - Why it is what it is]]
+[[Failed Auctions]]
+
