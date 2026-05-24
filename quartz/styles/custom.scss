@@ -1,14 +1,26 @@
-*, body, .page, .page-wrapper, main, article, .center {
+*, body, .page, .page-wrapper, main {
   background: #0a0a18 !important;
 }
 
-.left.sidebar, .sidebar-left, #quartz-body > .left {
+.left.sidebar {
   background: #0a0a18 !important;
-  border-right: 1px solid #1a1a3a !important;
+  border-right: 1px solid #2a2a4a !important;
 }
 
 .right.sidebar {
   background: #0a0a18 !important;
+}
+
+.page-title a {
+  color: #cdd6f4 !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  letter-spacing: 0.05em !important;
+}
+
+.page-title a:hover {
+  text-decoration: none !important;
 }
 
 article > h1:first-child,
@@ -19,7 +31,7 @@ h1.article-title,
   display: none !important;
 }
 
-.explorer-title, .sidebar-title {
+.explorer-title {
   font-size: 0.65rem !important;
   letter-spacing: 0.3em !important;
   color: #6c7086 !important;
@@ -31,6 +43,7 @@ h1.article-title,
   color: #8888aa !important;
   font-size: 0.88rem !important;
   font-family: Inter, sans-serif !important;
+  text-decoration: none !important;
 }
 
 .explorer-ul li a:hover {
@@ -53,21 +66,57 @@ h1.article-title,
   vertical-align: middle;
 }
 
-.search-bar, #search-bar, .search input {
-  background: #13132a !important;
-  border: 1px solid #2a2a4a !important;
-  border-radius: 50px !important;
+article {
+  max-width: 740px !important;
+  margin: 0 auto !important;
+  padding: 2rem !important;
+  line-height: 1.8 !important;
+  font-size: 1rem !important;
   color: #cdd6f4 !important;
+}
+
+article h1, article h2, article h3, article h4 {
+  color: #cdd6f4 !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 0.75rem !important;
+  padding-bottom: 0.4rem !important;
+  border-bottom: 1px solid #2a2a4a !important;
+  font-weight: 600 !important;
+}
+
+article h1 { font-size: 1.8rem !important; }
+article h2 { font-size: 1.4rem !important; }
+article h3 { font-size: 1.15rem !important; color: #89b4fa !important; border-bottom: none !important; }
+
+article p {
+  color: #b0b8d4 !important;
+  margin-bottom: 1rem !important;
+}
+
+article ul, article ol {
+  color: #b0b8d4 !important;
+  padding-left: 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+article img {
+  display: block !important;
+  margin: 1.5rem auto !important;
+  max-width: 100% !important;
+  border-radius: 8px !important;
+  border: 1px solid #2a2a4a !important;
+}
+
+article strong {
+  color: #cdd6f4 !important;
+}
+
+article em {
+  color: #89b4fa !important;
 }
 
 .graph-outer, .graph {
   border: 1px solid #1e1e3a !important;
   border-radius: 12px !important;
   background: #0d0d1f !important;
-}
-
-.page-title a {
-  color: #cdd6f4 !important;
-  font-size: 1rem !important;
-  font-weight: 600 !important;
 }
