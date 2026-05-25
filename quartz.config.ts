@@ -1,6 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Straight Sauce - DJ",
@@ -9,7 +8,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: { provider: "plausible" },
     locale: "en-US",
-   baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "dinj-dj.github.io/quartz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
