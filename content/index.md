@@ -172,5 +172,5 @@ article > h1, article > .content-meta, h1.article-title, .meta, .page-header { d
   <h2 class="hw-title"><span class="w">STRAIGHT </span><span class="p">SAUCE</span></h2>
   <div class="hw-byline"><i></i>BY DJ<i></i></div>
   <p class="hw-desc">Trading insights. Orderflow education. Market clarity.</p>
-  <a href="/Sauce" class="hw-btn">EXPLORE THE SAUCE →</a>
+  <a href="/" class="hw-btn">EXPLORE THE SAUCE →</a>
 </div>
