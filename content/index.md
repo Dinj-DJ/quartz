@@ -1,4 +1,4 @@
----
+<a href="/quartz" class="hw-btn">EXPLORE THE SAUCE →</a>---
 title: Straight Sauce
 ---
 
